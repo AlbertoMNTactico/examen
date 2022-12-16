@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "3APZwMfF8u9bk6ew10aiy7bFGLb4NL9QwzAFwSyQDVU=",
+  "Source": "encuesta",
+  "BasePath": "_content/encuesta",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "encuesta\\wwwroot",
+      "Source": "encuesta",
+      "ContentRoot": "C:\\Users\\cober\\OneDrive\\Escritorio\\Nueva carpeta\\encuesta\\wwwroot\\",
+      "BasePath": "_content/encuesta",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\cober\\OneDrive\\Escritorio\\Nueva carpeta\\encuesta\\wwwroot\\css\\site.css",
+      "SourceId": "encuesta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cober\\OneDrive\\Escritorio\\Nueva carpeta\\encuesta\\wwwroot\\",
+      "BasePath": "_content/encuesta",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\cober\\OneDrive\\Escritorio\\Nueva carpeta\\encuesta\\wwwroot\\index.html",
+      "SourceId": "encuesta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cober\\OneDrive\\Escritorio\\Nueva carpeta\\encuesta\\wwwroot\\",
+      "BasePath": "_content/encuesta",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\cober\\OneDrive\\Escritorio\\Nueva carpeta\\encuesta\\wwwroot\\js\\site.js",
+      "SourceId": "encuesta",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cober\\OneDrive\\Escritorio\\Nueva carpeta\\encuesta\\wwwroot\\",
+      "BasePath": "_content/encuesta",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}

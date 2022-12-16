@@ -1,0 +1,52 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>encuestas</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+
+    <h1> </h1>
+    <h1>To-do CRUD</h1>
+    <h3>Add</h3>
+    <!-- en esta parte podemos agregar informacion con el metodo post mediante el crud-->
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <input type="text" id="add-name" placeholder="New to-do">
+        <!-- Aqui el link de swagger-->
+        <form action="https://localhost:7244/swagger/index.html">
+            <input type="submit" value="Go to swagger" />
+        </form>
+    </form>
+    <button type="button" href="https://localhost:7244/swagger/index.html">Click Me!</button>
+    <div id="editForm">
+        <h3>Edit</h3>
+        <!-- Aqui podemos ver como subimos la informacion recopilda en el crud-->
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <input type="checkbox" id="edit-isComplete">
+            <input type="text" id="edit-name">
+            <input type="submit" value="Save">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Is Complete?</th>
+            <th>Name</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody id="todos"></tbody>
+    </table>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+</body>
+</html>
